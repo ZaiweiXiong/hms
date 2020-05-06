@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+
+<h2>Staff Login</h2>
+
+ <table class='table table-hover table-responsive table-bordered'>
+        
+		<tr>
+            <td>Select user tyoe</td>
+            <td>
+                <input list='usertype' name='usertype'>
+                <datalist id='usertype'>
+				<option value='Admin'>
+                <option value='Doctor'>
+				<option value='Receptionist'>
+                <option value='Nurse'>
+				<option value='Pharmacist'>
+				<option value='Lab Technician'>
+                </datalist>
+  
+            </td>
+        </tr>
+		<tr>
+            <td>Usename</td>
+            <td><input type='text' name='username' class='form-control' /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><password type='text' name='password' class='form-control' /></td>
+        </tr>
+        
+</table>
+<input type='submit' value='Login' class='btn  btn-primary' />
+
+</body>
+</html>
